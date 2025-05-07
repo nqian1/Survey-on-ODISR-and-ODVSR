@@ -2,18 +2,14 @@
 # A Systematic Investigation on Deep Learning Based Omnidirectional Image and Video Super Resolution
 
 ## Contents  
-1. [OSR-Platform](#OSR-platform)  
-2. [360insta Dataset](#lliv-phone-dataset)  
-3. [Methods](#methods)  
-4. [Datasets](#datasets)  
-5. [Metrics](#metrics)  
-6. [Citation](#citation)  
-
-## OSR-Platform  
-Currently, the LLIE-Platform covers 14 popular deep learning-based LLLIE methods including LLNet, LightenNet, Retinex-Net, EnlightenGAN, MBLLEN, KinD++, TBEFN, DSLR, DRBN, Zero-DCE, Zero-DCE++, and RRDNet, where the results of any inputs can be produced through a user-friendly web interface. Have fun: [LLIE-Platform](https://your-platform-link.com).  
+1. [360insta Dataset](#lliv-phone-dataset)  
+2. [Methods](#methods)  
+3. [Datasets](#datasets)  
+4. [Metrics](#metrics)  
+5. [Citation](#citation)  
 
 ## 360Insta Dataset  
-LLIV-Phone dataset contains 120 videos (45,148 images) taken by 18 different phones' cameras including iPhone 6s, iPhone 7, iPhone 7 Plus, iPhone 8 Plus, iPhone 11, iPhone 11 Pro, iPhone XS, iPhone XR, iPhone SE, Xiaomi Mi 9, Xiaomi Mi Mix 3, Pixel 3, Pixel 4, Oppo R17, Vivo Nex, LG M322, OnePlus 5T, Huawei Mate 20 Pro under diverse illumination conditions (e.g., weak illumination, underexposure, dark, extremely dark, back-lit, non-uniform light, color light sources, etc.) in the indoor and outdoor scenes.  
+360Insta dataset includes: 698 images depicting multi-scene blurring, 260 images under different lighting conditions, 283 images captured in dim conditions, 141 images with motion blur, and 118 images with varying exposure settings. These authentic and diverse degraded scenes provide a significant advantage in simulating real-world scenarios, offering a more realistic benchmark for model robustness evaluation. Compared to synthetic datasets, 360Insta offers higher realism and diversity, furnishing a more reliable platform for research in panoramic super-resolution.
 
 ### Accessing the 360Insta Dataset  
 Anyone can access the 360Insta dataset via the following links:  
