@@ -99,6 +99,7 @@ Anyone can access the 360Insta dataset via the following links:
 🔥 Calculate PSNR, SSIM, WS-PSNR, WS-SSIM. Run: python cal_metrics_all.py [HR folder path] [SR folder path] --output_file [save path.txt]
 
 🔥 Calculate NIQE, MUSIQ, MANIQA, CLIP-IQA. Run: python evaluation_noreference.py --input_dir [HR folder path] --output_dir [SR folder path] --score_file [save path.txt]
+```
 
 ## 🚀License
 The code, platform, and dataset are made available for academic research purpose only.
