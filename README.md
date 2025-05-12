@@ -1,15 +1,4 @@
-  ______                                                                                                         
-.' ____ \                                                                                                        
-| (___ \_|__   _   _ .--.  _   __  .---.   _   __    .--.   _ .--.                                               
- _.____`.[  | | | [ `/'`\][ \ [  ]/ /__\\ [ \ [  ] / .'`\ \[ `.-. |                                              
-| \____) || \_/ |, | |     \ \/ / | \__.,  \ '/ /  | \__. | | | | |                                              
- \______.''.__.'_/[___]     \__/   '.__.'[\_:  /    '.__.' [___||__]                                             
-   ___   ______   _____   ______   _______\__.'   ___          ___   ______   ____   ____   ______   _______     
- .'   `.|_   _ `.|_   _|.' ____ \ |_   __ \     .' _ '.      .'   `.|_   _ `.|_  _| |_  _|.' ____ \ |_   __ \    
-/  .-.  \ | | `. \ | |  | (___ \_|  | |__) |    | (_) '___  /  .-.  \ | | `. \ \ \   / /  | (___ \_|  | |__) |   
-| |   | | | |  | | | |   _.____`.   |  __ /     .`___'/ _/  | |   | | | |  | |  \ \ / /    _.____`.   |  __ /    
-\  `-'  /_| |_.' /_| |_ | \____) | _| |  \ \_  | (___)  \_  \  `-'  /_| |_.' /   \ ' /    | \____) | _| |  \ \_  
- `.___.'|______.'|_____| \______.'|____| |___| `._____.\__|  `.___.'|______.'     \_/      \______.'|____| |___| 
+
                                                                                                                  
 # A Systematic Investigation on Deep Learning Based Omnidirectional Image and Video Super Resolution
 
@@ -20,16 +9,16 @@
 4. [Metrics](#metrics)  
 5. [Citation](#citation)  
 
-## 360Insta Dataset  
+## 🚀360Insta Dataset  
 360Insta dataset includes: 698 images depicting multi-scene blurring, 260 images under different lighting conditions, 283 images captured in dim conditions, 141 images with motion blur, and 118 images with varying exposure settings. These authentic and diverse degraded scenes provide a significant advantage in simulating real-world scenarios, offering a more realistic benchmark for model robustness evaluation. Compared to synthetic datasets, 360Insta offers higher realism and diversity, furnishing a more reliable platform for research in panoramic super-resolution.
 
-### Accessing the 360Insta Dataset  
+### 🚀Accessing the 360Insta Dataset  
 Anyone can access the 360Insta dataset via the following links:  
 
 - **Google Drive**: [Link](https://drive.google.com/file/d/1QS4FgT5aTQNY-eHzoZ_A89rLoZgx_iysR/view?usp=sharing)  
 - **Baidu Cloud**: [Link](https://pan.baidu.com/s/1-8PF3dfbtlHlmK9y5ZK,w(Password:s0b9))  
  
-## ODISR Methods   
+## 🚀ODISR Methods   
 
 | Date     |     Publication      |Title                                              | Abbreviation                                                  | Code                                 | Platform                             |  
 |----------|----------------------|---------------------------------------------------|---------------------------------------------------------------|--------------------------------------|------------------------------------- |
@@ -57,7 +46,7 @@ Anyone can access the 360Insta dataset via the following links:
 |2025      |  SIVP| Geometric relationship-guided transformer network for omnidirectional image super-resolution|GRGTN [Paper](https://link.springer.com/article/10.1007/s11760-025-03963-6) | |Pytorch|
 
 
-## ODVSR Methods 
+## 🚀ODVSR Methods 
 | Date     |     Publication      |Title                                              | Abbreviation                                                  | Code                                 | Platform                             |  
 |----------|----------------------|---------------------------------------------------|---------------------------------------------------------------|--------------------------------------|------------------------------------- |
 |2022      | NOSSDAV | Applying vertexshuffle toward 360-degree video super-resolution |VertexShuffle [Paper](https://dl.acm.org/doi/abs/10.1145/3534088.3534353) |  |Pytorch|
@@ -71,7 +60,7 @@ Anyone can access the 360Insta dataset via the following links:
 
 
 
-## Datasets  
+## 🚀Datasets  
 
 |Abbreviation     |     Number      |Video                                             |Paired/Unpaired/Application                                                 | Dataset             |
 |----------|----------------------|---------------------------------------------------|---------------------------------------------------------------|--------------------------------------|
@@ -82,7 +71,7 @@ Anyone can access the 360Insta dataset via the following links:
 |ODV-SR     | | Yes |Unpaired |[Dataset](https://github.com/nichenxingmeng/STDAN) |
 |ODV360    |250 | Yes |Unpaired  |[Dataset](https://drive.google.com/drive/folders/1tYiyoPmCkPPrJ1l3dnBvZTqVMH4WMvbx?usp=sharing) |
 
-## Metrics  
+## 🚀Metrics  
 |Abbreviation     |    Full-/Non-Reference      |
 |----------|----------------------|
 |PSNR      | Full-Reference | 
@@ -94,10 +83,10 @@ Anyone can access the 360Insta dataset via the following links:
 |MANIQA      | Non-Reference | 
 |CLIP-IQA      | Non-Reference | 
 
-Calculate PSNR, SSIM, WS-PSNR, WS-SSIM. Run: python cal_metrics_all.py [HR folder path] [SR folder path] --output_file [save path.txt]
-Calculate NIQE, MUSIQ, MANIQA, CLIP-IQA. Run: python evaluation_noreference.py --input_dir [HR folder path] --output_dir [SR folder path] --score_file [save path.txt]
+🔥 Calculate PSNR, SSIM, WS-PSNR, WS-SSIM. Run: python cal_metrics_all.py [HR folder path] [SR folder path] --output_file [save path.txt]
+🔥 Calculate NIQE, MUSIQ, MANIQA, CLIP-IQA. Run: python evaluation_noreference.py --input_dir [HR folder path] --output_dir [SR folder path] --score_file [save path.txt]
 
-## License
+## 🚀License
 The code, platform, and dataset are made available for academic research purpose only.
-## Citation  
+## 🚀Citation  
 *Provide citation information for your work, if applicable.*  
