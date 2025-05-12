@@ -49,7 +49,7 @@ Anyone can access the 360Insta dataset via the following links:
 |2024      | ECCV | Omnissr: Zero-shot omnidirectional image super-resolution using stable diffusion model |Omnissr [Paper](https://link.springer.com/chapter/10.1007/978-3-031-72751-1_12) | [Code](https://github.com/LiRunyi2001/OmniSSR) |Pytorch|
 |2024      | ECCV | RealOSR: Latent Unfolding Boosting Diffusion-based Real-world Omnidirectional Image Super-Resolution |RealOSR [Paper](https://arxiv.org/abs/2412.09646) | |Pytorch|
 |2025      | TCSVT| Geometric distortion guided transformer for omnidirectional image super-resolution |GDGT [Paper](https://ieeexplore.ieee.org/abstract/document/10824832) | |Pytorch|
-|2025      |      | Fast omni-directional image super-resolution: Adapting the implicit image function with pixel and semantic-wise spherical geometric priors|FAOR [Paper](https://arxiv.org/abs/2502.05902) | |Pytorch|
+|2025      | AAAI | Fast omni-directional image super-resolution: Adapting the implicit image function with pixel and semantic-wise spherical geometric priors|FAOR [Paper](https://arxiv.org/abs/2502.05902) | |Pytorch|
 |2025      |  KBS | Diffosr: Latitude-aware conditional diffusion probabilistic model for omnidirectional image super-resolution|DiffOSR [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0950705125002916) | |Pytorch|
 |2025      |  SIVP| Geometric relationship-guided transformer network for omnidirectional image super-resolution|GRGTN [Paper](https://link.springer.com/article/10.1007/s11760-025-03963-6) | |Pytorch|
 
