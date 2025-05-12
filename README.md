@@ -1,8 +1,14 @@
-
+  ___                           _   ______   _______       ______                                           
+ .'   `.                        (_).' ____ \ |_   __ \    .' ____ \                                          
+/  .-.  \ _ .--..--.   _ .--.   __ | (___ \_|  | |__) |   | (___ \_|__   _   _ .--.  _   __  .---.   _   __  
+| |   | |[ `.-. .-. | [ `.-. | [  | _.____`.   |  __ /     _.____`.[  | | | [ `/'`\][ \ [  ]/ /__\\ [ \ [  ] 
+\  `-'  / | | | | | |  | | | |  | || \____) | _| |  \ \_  | \____) || \_/ |, | |     \ \/ / | \__.,  \ '/ /  
+ `.___.' [___||__||__][___||__][___]\______.'|____| |___|  \______.''.__.'_/[___]     \__/   '.__.'[\_:  /   
+                                                                                                    \__.'    
                                                                                                                  
-# A Systematic Investigation on Deep Learning Based Omnidirectional Image and Video Super Resolution
+# 🚀🚀A Systematic Investigation on Deep Learning Based Omnidirectional Image and Video Super Resolution
 
-## Contents  
+## 🚀Contents  
 1. [360insta Dataset](#lliv-phone-dataset)  
 2. [Methods](#methods)  
 3. [Datasets](#datasets)  
@@ -84,6 +90,7 @@ Anyone can access the 360Insta dataset via the following links:
 |CLIP-IQA      | Non-Reference | 
 
 🔥 Calculate PSNR, SSIM, WS-PSNR, WS-SSIM. Run: python cal_metrics_all.py [HR folder path] [SR folder path] --output_file [save path.txt]
+
 🔥 Calculate NIQE, MUSIQ, MANIQA, CLIP-IQA. Run: python evaluation_noreference.py --input_dir [HR folder path] --output_dir [SR folder path] --score_file [save path.txt]
 
 ## 🚀License
